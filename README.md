@@ -1,1 +1,1 @@
-# WEB_DEV
+# TinDOG project using html, css, bootstrap
