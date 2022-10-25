@@ -11,7 +11,8 @@
   <!--google font-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;900&family=Ubuntu:wght@300&display=swap"
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;900&family=Ubuntu:wght@300&display=swap"
     rel="stylesheet">
 
   <!--bootstrap-->
@@ -146,9 +147,10 @@
     <h2>A Plan for Every Dog's Needs</h2>
     <p>Simple and affordable price plans for your and your dog.</p>
 
-      <div class="row g-4">
-        <div class="col-lg-4 col-md-6">
-          <div class="card h-100">
+    <div class="container overflow-hidden px-4">
+      <div class="row g-3 p-4">
+        <div class="col-lg-4 col-md-6 in_box">
+          <div class="card h-100 box">
             <div class="card-header">
               <h3>Chihuahua</h3>
             </div>
@@ -157,13 +159,13 @@
               <p>5 Matches Per Day</p>
               <p>10 Messages Per Day</p>
               <p>Unlimited App Usage</p>
-              <button type="button">Sign Up</button>
+              <button type="button" class="w-100 btn btn-lg btn-outline-dark">Sign Up</button>
             </div>
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6">
-          <div class="card h-100">
+        <div class="col-lg-4 col-md-6 in_box">
+          <div class="card h-100 box">
             <div class="card-header">
               <h3>Labrador</h3>
             </div>
@@ -172,13 +174,13 @@
               <p>Unlimited Matches</p>
               <p>Unlimited Messages</p>
               <p>Unlimited App Usage</p>
-              <button type="button">Sign Up</button>
+              <button type="button" class="w-100 btn btn-lg btn-dark">Sign Up</button>
             </div>
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-12">
-          <div class="card h-100">
+        <div class="col-lg-4 col-md-12 in_box">
+          <div class="card h-100 box">
             <div class="card-header">
               <h3>Mastiff</h3>
             </div>
@@ -188,11 +190,12 @@
               <p>Unlimited Matches</p>
               <p>Unlimited Messages</p>
               <p>Unlimited App Usage</p>
-              <button type="button">Sign Up</button>
+              <button type="button" class="w-100 btn btn-lg btn-dark">Sign Up</button>
             </div>
           </div>
         </div>
       </div>
+    </div>
   </section>
 
 
@@ -200,9 +203,11 @@
 
   <section id="cta">
 
-    <h3>Find the True Love of Your Dog's Life Today.</h3>
-    <button type="button">Download</button>
-    <button type="button">Download</button>
+    <h3 class="h3-2">Find the True Love of Your Dog's Life Today.</h3>
+    <button type="button" class="btn btn-dark btn-lg Download"><i class="fa-brands fa-apple"></i>
+      Download</button>
+    <button type="button" class="btn btn-light btn-lg Download"><i class="fa-brands fa-google-play"></i>
+      Download</button>
 
   </section>
 
@@ -210,7 +215,12 @@
   <!-- Footer -->
 
   <footer id="footer">
-
+    <div>
+      <i class="fa-brands fa-twitter footer_logo"></i>
+      <i class="fa-brands fa-facebook-f footer_logo"></i>
+      <i class="fa-brands fa-instagram footer_logo"></i>
+      <i class="fa-sharp fa-solid fa-envelope footer_logo"></i>
+    </div>
     <p>© Copyright TinDog</p>
 
   </footer>
